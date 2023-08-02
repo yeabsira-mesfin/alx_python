@@ -1,6 +1,4 @@
-import add_0
+from add_0 import add
 a = 1
 b = 2
-# print(add_0.add(a,b))
-c = add_0.add(a,b)
-print(f"{c}")
+print(f"{a} + {b} = {add(a, b)}")
