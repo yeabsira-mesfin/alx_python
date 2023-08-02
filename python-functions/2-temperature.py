@@ -1,2 +1,2 @@
 def convert_to_celsius(fahrenheit):
-    return fahrenheit * 1.8 + 32
+    return  (fahrenheit - 32) * 5.0/9.0
