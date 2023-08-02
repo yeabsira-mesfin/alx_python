@@ -14,11 +14,3 @@ def print_matrix_integer(matrix=[[]]):
            
             print("{:>{width}}".format(matrix[i][j], width=column_widths[j]), end=" ")
         print()
-
-matrix = [
-    [1, 22, 333],
-    [4444, 55555, 666666],
-    [7777777, 88888888, 999999999]
-]
-
-print_matrix_integer(matrix)
